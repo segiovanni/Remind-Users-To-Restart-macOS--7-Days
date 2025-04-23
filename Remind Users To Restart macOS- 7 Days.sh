@@ -16,7 +16,7 @@ fi
 readonly MAX_DAYS=7  # Uptime threshold in days
 readonly LOG_FILE="/tmp/uptime_checker.log"  # Accessible directory
 readonly JAMF_HELPER="/Library/Application Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper"
-readonly LOGO_PATH="/Library/Application Support/JAMF/JamfCustomApps/Viewpoint_logo_medium.png"
+readonly LOGO_PATH="/Library/Application Support/JAMF/JamfCustomApps/logo.png"
 readonly FALLBACK_LOGO="/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AlertNoteIcon.icns"
 readonly TIMEOUT_SECONDS=180  # 3 minutes (changed from 300)
 readonly DEFER_LIMIT=3  # Maximum times user can defer restart
